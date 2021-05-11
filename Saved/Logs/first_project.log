@@ -4259,3 +4259,169 @@ Spawner_C.UserConstructionScript
 [2021.05.11-12.57.36:905][898]AssetCheck: New page: Asset Save: multiple assets
 [2021.05.11-12.57.36:905][898]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
 [2021.05.11-12.57.36:905][898]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2021.05.11-12.58.26:072][679]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.05.11-13.03.20:612][218]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2021.05.11-13.03.20:618][218]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2021.05.11-13.03.20:630][218]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2021.05.11-13.03.20:630][218]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.11-13.03.27:909][452]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.05.11-13.03.29:493][636]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.11-13.03.29:507][636]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.11-13.03.29:507][636]PIE: New page: PIE session: FirstPersonExampleMap (May 12, 2021, 7:03:29 AM)
+[2021.05.11-13.03.29:556][636]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.05.11-13.03.29:566][636]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009610s)
+[2021.05.11-13.03.29:567][636]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.05.11-13.03.29:567][636]LogPlayLevel: PIE: World Init took: (0.001233s)
+[2021.05.11-13.03.29:567][636]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.011170s)
+[2021.05.11-13.03.29:595][636]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2021.05.11-13.03.29:601][636]LogAudio: Display: Creating Audio Device:                 Id: 46, Scope: Unique, Realtime: True
+[2021.05.11-13.03.29:601][636]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.11-13.03.29:601][636]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.11-13.03.29:601][636]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.11-13.03.29:601][636]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.11-13.03.29:601][636]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.11-13.03.29:601][636]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.11-13.03.29:601][636]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.11-13.03.29:601][636]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.11-13.03.29:601][636]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.11-13.03.29:601][636]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.11-13.03.29:606][636]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.11-13.03.29:606][636]LogAudioMixer: Display: 1: FrontRight
+[2021.05.11-13.03.29:606][636]LogAudioMixer: Display: 2: FrontCenter
+[2021.05.11-13.03.29:606][636]LogAudioMixer: Display: 3: LowFrequency
+[2021.05.11-13.03.29:606][636]LogAudioMixer: Display: 4: BackLeft
+[2021.05.11-13.03.29:606][636]LogAudioMixer: Display: 5: BackRight
+[2021.05.11-13.03.29:606][636]LogAudioMixer: Display: 6: SideLeft
+[2021.05.11-13.03.29:606][636]LogAudioMixer: Display: 7: SideRight
+[2021.05.11-13.03.29:611][636]LogAudioMixer: Display: Using Audio Device Speakers (GSX 300)
+[2021.05.11-13.03.29:612][636]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.11-13.03.29:612][636]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.11-13.03.29:612][636]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.11-13.03.29:612][636]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.11-13.03.29:612][636]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.11-13.03.29:612][636]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2021.05.11-13.03.29:624][636]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.11-13.03.29:624][636]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.11-13.03.29:624][636]LogInit: FAudioDevice initialized.
+[2021.05.11-13.03.29:624][636]LogAudio: Display: Audio Device (ID: 46) registered with world 'FirstPersonExampleMap'.
+[2021.05.11-13.03.29:632][636]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.05.11-13.03.29:634][636]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.05.11-22.03.29
+[2021.05.11-13.03.29:635][636]LogWorld: Bringing up level for play took: 0.001992
+[2021.05.11-13.03.29:635][636]LogOnline: OSS: Creating online subsystem instance for: :Context_93
+[2021.05.11-13.03.29:637][636]PIE: Server logged in
+[2021.05.11-13.03.29:638][636]PIE: Play in editor total start time 0.131 seconds.
+[2021.05.11-13.03.34:968][273]LogBlueprintUserMessages: [Pawn_Blueprint_45] destoryed
+[2021.05.11-13.03.37:071][524]LogBlueprintUserMessages: [Plane_Blueprint] player on plane
+[2021.05.11-13.03.38:071][644]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.03.38:962][751]LogBlueprintUserMessages: [Pawn_Blueprint_C_0] destoryed
+[2021.05.11-13.03.39:071][764]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.03.40:071][884]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.03.40:796][971]LogBlueprintUserMessages: [Pawn_Blueprint_C_1] destoryed
+[2021.05.11-13.03.41:071][  4]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.03.41:688][ 78]LogBlueprintUserMessages: [Pawn_Blueprint_C_2] destoryed
+[2021.05.11-13.03.42:071][124]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.03.42:255][146]LogBlueprintUserMessages: [Pawn_Blueprint_C_3] destoryed
+[2021.05.11-13.03.43:047][241]LogBlueprintUserMessages: [Pawn_Blueprint_C_4] destoryed
+[2021.05.11-13.03.43:072][244]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.03.44:072][364]LogBlueprintUserMessages: [Pawn_Blueprint_C_5] destoryed
+[2021.05.11-13.03.44:072][364]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.03.44:080][365]LogBlueprintUserMessages: [Pawn_Blueprint_C_6] destoryed
+[2021.05.11-13.03.45:071][484]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.03.46:021][598]LogBlueprintUserMessages: [Pawn_Blueprint_C_7] destoryed
+[2021.05.11-13.03.46:071][604]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.03.46:863][699]LogBlueprintUserMessages: [Pawn_Blueprint_C_8] destoryed
+[2021.05.11-13.03.47:071][724]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.03.47:780][809]LogBlueprintUserMessages: [Pawn_Blueprint_C_9] destoryed
+[2021.05.11-13.03.48:072][844]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.03.48:796][931]LogBlueprintUserMessages: [Pawn_Blueprint_C_10] destoryed
+[2021.05.11-13.03.49:071][964]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.03.49:922][ 66]LogBlueprintUserMessages: [Pawn_Blueprint_C_11] destoryed
+[2021.05.11-13.03.50:072][ 84]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.03.51:021][198]LogBlueprintUserMessages: [Pawn_Blueprint_C_12] destoryed
+[2021.05.11-13.03.51:071][204]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.03.51:863][299]LogBlueprintUserMessages: [Pawn_Blueprint_C_13] destoryed
+[2021.05.11-13.03.52:072][324]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.03.52:639][392]LogBlueprintUserMessages: [Pawn_Blueprint_C_14] destoryed
+[2021.05.11-13.03.53:071][444]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.03.53:655][514]LogBlueprintUserMessages: [Pawn_Blueprint_C_15] destoryed
+[2021.05.11-13.03.54:072][564]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.03.54:530][619]LogBlueprintUserMessages: [Pawn_Blueprint_C_16] destoryed
+[2021.05.11-13.03.55:072][684]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.03.55:638][752]LogBlueprintUserMessages: [Pawn_Blueprint_C_17] destoryed
+[2021.05.11-13.03.56:071][804]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.03.56:839][896]LogBlueprintUserMessages: [Pawn_Blueprint_C_18] destoryed
+[2021.05.11-13.03.57:072][924]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.03.57:606][988]LogBlueprintUserMessages: [Pawn_Blueprint_C_19] destoryed
+[2021.05.11-13.03.58:073][ 44]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.03.58:656][114]LogBlueprintUserMessages: [Pawn_Blueprint_C_20] destoryed
+[2021.05.11-13.03.59:073][164]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.03.59:663][235]LogBlueprintUserMessages: [Pawn_Blueprint_C_21] destoryed
+[2021.05.11-13.04.00:072][284]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.04.00:622][350]LogBlueprintUserMessages: [Pawn_Blueprint_C_22] destoryed
+[2021.05.11-13.04.01:072][404]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.04.01:573][464]LogBlueprintUserMessages: [Pawn_Blueprint_C_23] destoryed
+[2021.05.11-13.04.02:072][524]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.04.02:614][589]LogBlueprintUserMessages: [Pawn_Blueprint_C_24] destoryed
+[2021.05.11-13.04.03:072][644]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.04.03:756][726]LogBlueprintUserMessages: [Pawn_Blueprint_C_25] destoryed
+[2021.05.11-13.04.04:072][764]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.04.04:706][840]LogBlueprintUserMessages: [Pawn_Blueprint_C_26] destoryed
+[2021.05.11-13.04.05:072][884]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.04.05:539][940]LogBlueprintUserMessages: [Pawn_Blueprint_C_27] destoryed
+[2021.05.11-13.04.06:073][  4]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.04.06:981][113]LogBlueprintUserMessages: [Pawn_Blueprint_C_28] destoryed
+[2021.05.11-13.04.07:073][124]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.04.07:856][218]LogBlueprintUserMessages: [Pawn_Blueprint_C_29] destoryed
+[2021.05.11-13.04.08:073][244]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.04.08:698][319]LogBlueprintUserMessages: [Pawn_Blueprint_C_30] destoryed
+[2021.05.11-13.04.09:072][364]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.04.09:606][428]LogBlueprintUserMessages: [Pawn_Blueprint_C_31] destoryed
+[2021.05.11-13.04.10:072][484]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.04.10:864][579]LogBlueprintUserMessages: [Pawn_Blueprint_C_32] destoryed
+[2021.05.11-13.04.11:072][604]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.04.12:073][724]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.04.12:181][737]LogBlueprintUserMessages: [Pawn_Blueprint_C_33] destoryed
+[2021.05.11-13.04.12:914][825]LogBlueprintUserMessages: [Pawn_Blueprint_C_34] destoryed
+[2021.05.11-13.04.13:074][844]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.04.13:581][905]LogBlueprintUserMessages: [Pawn_Blueprint_C_35] destoryed
+[2021.05.11-13.04.14:073][964]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.04.15:073][ 84]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.04.15:215][101]LogBlueprintUserMessages: [Pawn_Blueprint_C_36] destoryed
+[2021.05.11-13.04.15:906][184]LogBlueprintUserMessages: [Pawn_Blueprint_C_37] destoryed
+[2021.05.11-13.04.16:073][204]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.04.16:531][259]LogBlueprintUserMessages: [Pawn_Blueprint_C_38] destoryed
+[2021.05.11-13.04.17:074][324]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.04.17:590][386]LogBlueprintUserMessages: [Pawn_Blueprint_C_39] destoryed
+[2021.05.11-13.04.18:073][444]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.04.18:540][500]LogBlueprintUserMessages: [Pawn_Blueprint_C_40] destoryed
+[2021.05.11-13.04.19:073][564]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.04.20:074][684]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.04.20:423][726]LogBlueprintUserMessages: [Pawn_Blueprint_C_41] destoryed
+[2021.05.11-13.04.20:831][775]LogBlueprintUserMessages: [Pawn_Blueprint_C_42] destoryed
+[2021.05.11-13.04.21:074][804]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.04.21:607][868]LogBlueprintUserMessages: [Pawn_Blueprint_C_43] destoryed
+[2021.05.11-13.04.22:073][924]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.04.22:599][987]LogBlueprintUserMessages: [Pawn_Blueprint_C_44] destoryed
+[2021.05.11-13.04.23:074][ 44]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.04.23:541][100]LogBlueprintUserMessages: [Pawn_Blueprint_C_45] destoryed
+[2021.05.11-13.04.24:074][164]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.04.24:565][223]LogBlueprintUserMessages: [Pawn_Blueprint_C_46] destoryed
+[2021.05.11-13.04.25:073][284]LogBlueprintUserMessages: [Plane_Blueprint] Spawn 
+[2021.05.11-13.04.25:116][285]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.11-13.04.25:116][285]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.05.11-13.04.25:116][285]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.11-13.04.25:117][285]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.11-13.04.25:127][285]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.11-13.04.25:143][285]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.11-13.04.25:156][285]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.11-13.04.25:156][285]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.11-13.04.25:156][285]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.11-13.04.25:170][285]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.11-13.04.25:173][285]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2021.05.11-13.04.25:227][286]LogPlayLevel: Display: Destroying online subsystem :Context_93
+[2021.05.11-13.04.35:677][533]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2021.05.11-13.04.35:992][533]LogSavePackage: Moving '../../../../projects/UE4_first_project/Saved/FirstPersonExampleMap6908D16B44CC606F4A4093AFD8E7F80F.tmp' to '../../../../projects/UE4_first_project/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2021.05.11-13.04.36:619][533]LogSavePackage: Moving '../../../../projects/UE4_first_project/Saved/FirstPersonExampleMap_BuiltDataBB12D39247C811363F8E1EB5F35EA912.tmp' to '../../../../projects/UE4_first_project/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2021.05.11-13.04.36:633][533]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.11-13.04.36:633][533]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
+[2021.05.11-13.04.36:633][533]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
